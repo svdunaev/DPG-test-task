@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DPG Test task</title>
+	<link href="styles.css" rel="stylesheet">
+	</link>
 </head>
+
 <body>
-	
+	<div class="container">
+		<h1>Hello</h1>
+		<form action="">
+			<h2>
+				For business enquiries please use the form below
+			</h2>
+			<p>
+				*Required
+			</p>
+			<div class="text-field">
+				<label class="text-field__label" for="name">Name*</label>
+				<input class="text-field__input" type="text" id="name">
+			</div>
+
+			<div class="text-field">
+				<label class="text-field__label" for="company">Company*</label>
+				<input class="text-field__input" type="text" id="company">
+			</div>
+
+			<div class="text-field">
+				<label class="text-field__label" for="email">E-mail*</label>
+				<input class="text-field__input" type="text" id="email">
+			</div>
+
+			<div class="text-field">
+				<label class="text-field__label" for="phone">Phone</label>
+				<input class="text-field__input" type="text" id="phone">
+			</div>
+
+			<div class="text-field">
+				<label class="text-field__label" for="subject">Subject</label>
+				<input class="text-field__input" type="text" id="subject">
+			</div>
+
+			<div class="text-field">
+				<label class="text-field__label" for="message">Message*</label>
+				<textarea class="text-field__textarea" id="message" rows="2" ></textarea>
+			</div>
+
+			<label for="checkbox" class="check option">
+				<input type="checkbox" class="check__input" id="checkbox">
+				<span class="check__box"></span>
+				I accept <a href="#">Terms and Privacy Policy</a>
+			</label>
+
+			<button>Send</button>
+		</form>
+	</div>
 </body>
+
 </html>
