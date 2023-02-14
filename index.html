@@ -13,7 +13,7 @@
 <body>
 	<div class="container">
 		<h1>Hello</h1>
-		<form action="">
+		<form class="form">
 			<h2>
 				For business enquiries please use the form below
 			</h2>
@@ -22,22 +22,22 @@
 			</p>
 			<div class="text-field">
 				<label class="text-field__label" for="name">Name*</label>
-				<input class="text-field__input" type="text" id="name">
+				<input class="text-field__input req" type="text" id="name">
 			</div>
 
 			<div class="text-field">
 				<label class="text-field__label" for="company">Company*</label>
-				<input class="text-field__input" type="text" id="company">
+				<input class="text-field__input req" type="text" id="company">
 			</div>
 
 			<div class="text-field">
 				<label class="text-field__label" for="email">E-mail*</label>
-				<input class="text-field__input" type="text" id="email">
+				<input class="text-field__input input-email req" type="text" id="email">
 			</div>
 
 			<div class="text-field">
 				<label class="text-field__label" for="phone">Phone</label>
-				<input class="text-field__input" type="text" id="phone">
+				<input class="text-field__input input-phone" type="text" id="phone">
 			</div>
 
 			<div class="text-field">
@@ -47,18 +47,21 @@
 
 			<div class="text-field">
 				<label class="text-field__label" for="message">Message*</label>
-				<textarea class="text-field__textarea" id="message" rows="2" ></textarea>
+				<textarea class="text-field__textarea text-field__input req" id="message" rows="2" ></textarea>
 			</div>
 
-			<label for="checkbox" class="check option">
-				<input type="checkbox" class="check__input" id="checkbox">
+			<label for="checkbox" class="check">
+				<input type="checkbox" class="check__input req" id="checkbox">
 				<span class="check__box"></span>
-				I accept <a href="#">Terms and Privacy Policy</a>
+				I accept
+				<a href="#">Terms and Privacy Policy</a>
 			</label>
 
-			<button>Send</button>
+			<button class="button" type="submit">Send</button>
 		</form>
 	</div>
+
+	<script src="index.js"></script>
 </body>
 
 </html>

@@ -42,7 +42,7 @@ h1 {
 	font-size: 5.5rem;
 	line-height: 120%;
 
-	margin-top: 4rem;
+	margin-top: 1rem;
 	margin-bottom: 2rem;
 }
 
@@ -111,6 +111,10 @@ p {
 	border-bottom: 1px solid #3F4363;
 }
 
+.text-field__input.error {
+	border-bottom: 1px solid red;
+}
+
 .text-field__input:focus-visible {
 	outline: none;
 	border: none;
@@ -136,6 +140,10 @@ p {
 	border-bottom: 1px solid #3F4363;
 }
 
+.text-field__textarea.error {
+	border-bottom: 1px solid red;
+}
+
 .text-field__textarea:focus-visible {
 	outline: none;
 	border: none;
@@ -157,12 +165,17 @@ p {
 	margin-bottom: 2.5rem;
 }
 
+.check.error {
+	color: red;
+}
+
 .check__input {
 	position: absolute;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 }
+
 
 .check__box {
 	position: absolute;
@@ -181,8 +194,13 @@ p {
 	background-repeat: no-repeat;
 }
 
+a {
+	color: #797EA3;
+	margin-left: 0.5rem;
+}
+
 a:hover {
-	color:#797EA3
+	color:#ffffff
 }
 
 a:visited {
